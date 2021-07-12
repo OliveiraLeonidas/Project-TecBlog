@@ -1,0 +1,133 @@
+/* limpar formatações */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background: lightgray;
+}
+/****** layout ************/
+#cabeçalho {
+  background: #f7b600;
+  padding: 15px;
+  text-align: center;
+}
+h1 {
+  color: #4e4e4e;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#title {
+  color: white;
+}
+
+#logo,
+#menu {
+  padding: 10px;
+}
+
+#principal {
+  width: 920px;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+#postagen {
+  width: 660px;
+  float: left;
+}
+
+.postagens {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 0.25rem;
+}
+
+h3 {
+  color: #f7b600;
+  font-size: 1.4rem;
+}
+
+.data {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+/* Laterais */
+.lateral {
+  width: 220px;
+  background: white;
+  float: right;
+  padding: 10px;
+  border-radius: 0.25rem;
+  font-size: 14px;
+}
+
+.categoria {
+  width: 220px;
+  padding: 10px;
+  float: right;
+  margin-top: 20px;
+  background: white;
+  border-radius: 0.25rem;
+}
+
+.lateral .data {
+  border-bottom: 1px dotted #ccc;
+}
+
+h4 {
+  color: #565656;
+  font-size: 18px;
+  text-align: left;
+  padding: 5px;
+  background: #ccc;
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+}
+
+#rodape {
+  padding: 15px;
+  background: rgb(192, 192, 192);
+  text-align: center;
+  clear: both;
+  border-radius: 0.25rem;
+}
+
+/*******formatação menu***/
+a {
+  text-decoration: none;
+  color: #f7b600;
+  margin-top: 10px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.categoria a {
+  display: block;
+  color: #f7b600;
+}
+
+#menu a {
+  color: white;
+  padding: 10px 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  border-radius: 0.25rem;
+  color: #f7b600;
+  background: whitesmoke;
+}
+/*******Final menu******* */
